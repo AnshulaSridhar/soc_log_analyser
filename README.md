@@ -1,5 +1,5 @@
 SOC Log Analyzer Dashboard
-screenshots/dashboard.png
+DEMO: https://socloganalyser-anshulas356.streamlit.app/
 
 Overview
 SOC Log Analyzer Dashboard is a cybersecurity monitoring and detection platform built using Python and Streamlit.
