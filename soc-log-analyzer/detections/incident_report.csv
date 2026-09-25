@@ -1,0 +1,9 @@
+IP,Attack,Severity,Score,MITRE
+192.168.1.10,Brute Force,HIGH,80,T1110
+172.16.0.5,Brute Force,HIGH,80,T1110
+185.34.22.11,Brute Force,HIGH,80,T1110
+192.168.1.10,Root Account Attack,CRITICAL,100,T1078
+172.16.0.5,Root Account Attack,CRITICAL,100,T1078
+185.34.22.11,Root Account Attack,CRITICAL,100,T1078
+192.168.1.10,Credential Stuffing,HIGH,90,T1110
+172.16.0.5,Credential Stuffing,HIGH,90,T1110
