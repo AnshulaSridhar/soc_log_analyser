@@ -1,5 +1,14 @@
 import streamlit as st
+import os
 
+
+st.write("Current directory:", os.getcwd())
+st.write("Files:", os.listdir("."))
+
+if os.path.exists("data/auth.log"):
+    st.success("auth.log FOUND")
+else:
+    st.error("auth.log NOT FOUND")
 from log_parser import parse_logs
 from detector import detect_events
 
